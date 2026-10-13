@@ -1,0 +1,1727 @@
+{
+  "method": {
+    "correlation": "Pearson r with the Happiness Score, pairwise complete countries",
+    "ranking": "by absolute correlation, 1 = strongest",
+    "min_countries_per_correlation": 15,
+    "excluded_from_ranking": [
+      "Dystopia Residual",
+      "Happiness Score"
+    ],
+    "continents": "ISO-3166 region column (data/supplemental/countries-extended.csv)"
+  },
+  "scopes": {
+    "Africa": {
+      "2015": {
+        "countries_with_happiness_score": 44,
+        "top3": [
+          {
+            "indicator": "Social support",
+            "r": 0.552,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.524,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": 0.442,
+            "n_countries": 42
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Political System",
+            "r": -0.005,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.037,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.038,
+            "n_countries": 44
+          }
+        ]
+      },
+      "2016": {
+        "countries_with_happiness_score": 42,
+        "top3": [
+          {
+            "indicator": "Sustainable Development Index",
+            "r": 0.591,
+            "n_countries": 38
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.532,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.499,
+            "n_countries": 42
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Inflation",
+            "r": -0.011,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": -0.012,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.038,
+            "n_countries": 42
+          }
+        ]
+      },
+      "2017": {
+        "countries_with_happiness_score": 44,
+        "top3": [
+          {
+            "indicator": "Sustainable Development Index",
+            "r": 0.612,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.596,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.507,
+            "n_countries": 44
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": -0.005,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Inflation",
+            "r": 0.007,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.081,
+            "n_countries": 44
+          }
+        ]
+      },
+      "2018": {
+        "countries_with_happiness_score": 44,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.557,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": 0.546,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.474,
+            "n_countries": 44
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Political System",
+            "r": -0.037,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": -0.08,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.111,
+            "n_countries": 44
+          }
+        ]
+      },
+      "2019": {
+        "countries_with_happiness_score": 45,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.486,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": 0.466,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.465,
+            "n_countries": 45
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Forest Area",
+            "r": -0.082,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.101,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.183,
+            "n_countries": 45
+          }
+        ]
+      },
+      "2020": {
+        "countries_with_happiness_score": 44,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.392,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.378,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.313,
+            "n_countries": 43
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Political System",
+            "r": -0.0,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.075,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.126,
+            "n_countries": 44
+          }
+        ]
+      },
+      "2021": {
+        "countries_with_happiness_score": 41,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.344,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Urban Population Growth",
+            "r": -0.241,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.235,
+            "n_countries": 41
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": 0.029,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Political System",
+            "r": -0.033,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.081,
+            "n_countries": 41
+          }
+        ]
+      },
+      "2022": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Inflation",
+            "r": -0.391,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.342,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.286,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Freedom",
+            "r": 0.008,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.055,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Political System",
+            "r": -0.068,
+            "n_countries": 40
+          }
+        ]
+      },
+      "2023": {
+        "countries_with_happiness_score": 37,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.492,
+            "n_countries": 37
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.407,
+            "n_countries": 37
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.26,
+            "n_countries": 37
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": -0.068,
+            "n_countries": 37
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.176,
+            "n_countries": 37
+          },
+          {
+            "indicator": "Political System",
+            "r": -0.179,
+            "n_countries": 37
+          }
+        ]
+      }
+    },
+    "Americas": {
+      "2015": {
+        "countries_with_happiness_score": 24,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.78,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.713,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Urban Population Growth",
+            "r": -0.589,
+            "n_countries": 24
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Inflation",
+            "r": 0.018,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.082,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": -0.198,
+            "n_countries": 24
+          }
+        ]
+      },
+      "2016": {
+        "countries_with_happiness_score": 26,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.815,
+            "n_countries": 26
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.775,
+            "n_countries": 26
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.661,
+            "n_countries": 24
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Inflation",
+            "r": -0.035,
+            "n_countries": 25
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.073,
+            "n_countries": 26
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": -0.228,
+            "n_countries": 25
+          }
+        ]
+      },
+      "2017": {
+        "countries_with_happiness_score": 24,
+        "top3": [
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.771,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.765,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.706,
+            "n_countries": 23
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": -0.078,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.197,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": -0.217,
+            "n_countries": 24
+          }
+        ]
+      },
+      "2018": {
+        "countries_with_happiness_score": 24,
+        "top3": [
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.797,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.776,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.719,
+            "n_countries": 24
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Inflation",
+            "r": 0.015,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Urban Population Growth",
+            "r": -0.037,
+            "n_countries": 24
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.139,
+            "n_countries": 24
+          }
+        ]
+      },
+      "2019": {
+        "countries_with_happiness_score": 23,
+        "top3": [
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.8,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.781,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.696,
+            "n_countries": 23
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Urban Population Growth",
+            "r": 0.049,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Sustainable Development Index",
+            "r": -0.2,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.211,
+            "n_countries": 23
+          }
+        ]
+      },
+      "2020": {
+        "countries_with_happiness_score": 23,
+        "top3": [
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.808,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.799,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.736,
+            "n_countries": 23
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Urban Population Growth",
+            "r": -0.116,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.257,
+            "n_countries": 23
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.31,
+            "n_countries": 23
+          }
+        ]
+      },
+      "2021": {
+        "countries_with_happiness_score": 22,
+        "top3": [
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.819,
+            "n_countries": 22
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.794,
+            "n_countries": 22
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.788,
+            "n_countries": 22
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Inflation",
+            "r": -0.248,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.26,
+            "n_countries": 22
+          },
+          {
+            "indicator": "Urban Population Growth",
+            "r": -0.275,
+            "n_countries": 22
+          }
+        ]
+      },
+      "2022": {
+        "countries_with_happiness_score": 21,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.741,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.615,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.563,
+            "n_countries": 21
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Urban Population Growth",
+            "r": 0.035,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.11,
+            "n_countries": 20
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.138,
+            "n_countries": 21
+          }
+        ]
+      },
+      "2023": {
+        "countries_with_happiness_score": 21,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.669,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.619,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.589,
+            "n_countries": 21
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.31,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.326,
+            "n_countries": 21
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.472,
+            "n_countries": 21
+          }
+        ]
+      }
+    },
+    "Asia": {
+      "2015": {
+        "countries_with_happiness_score": 46,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.767,
+            "n_countries": 46
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.711,
+            "n_countries": 46
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.58,
+            "n_countries": 46
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Political System",
+            "r": -0.006,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": -0.008,
+            "n_countries": 44
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.009,
+            "n_countries": 46
+          }
+        ]
+      },
+      "2016": {
+        "countries_with_happiness_score": 45,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.757,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.729,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.59,
+            "n_countries": 45
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.009,
+            "n_countries": 43
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.023,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.03,
+            "n_countries": 43
+          }
+        ]
+      },
+      "2017": {
+        "countries_with_happiness_score": 44,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.75,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.698,
+            "n_countries": 44
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.616,
+            "n_countries": 44
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.002,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Generosity",
+            "r": -0.005,
+            "n_countries": 44
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.01,
+            "n_countries": 44
+          }
+        ]
+      },
+      "2018": {
+        "countries_with_happiness_score": 45,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.761,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.626,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.62,
+            "n_countries": 45
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.004,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": -0.005,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.013,
+            "n_countries": 45
+          }
+        ]
+      },
+      "2019": {
+        "countries_with_happiness_score": 45,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.732,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.706,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.689,
+            "n_countries": 45
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": -0.017,
+            "n_countries": 45
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": -0.022,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.037,
+            "n_countries": 45
+          }
+        ]
+      },
+      "2020": {
+        "countries_with_happiness_score": 43,
+        "top3": [
+          {
+            "indicator": "Social support",
+            "r": 0.696,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.668,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.625,
+            "n_countries": 43
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": -0.054,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.1,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.114,
+            "n_countries": 41
+          }
+        ]
+      },
+      "2021": {
+        "countries_with_happiness_score": 43,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.701,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.694,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.654,
+            "n_countries": 43
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": -0.023,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.037,
+            "n_countries": 43
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.073,
+            "n_countries": 41
+          }
+        ]
+      },
+      "2022": {
+        "countries_with_happiness_score": 42,
+        "top3": [
+          {
+            "indicator": "Social support",
+            "r": 0.763,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.671,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.623,
+            "n_countries": 42
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.016,
+            "n_countries": 42
+          },
+          {
+            "indicator": "Urban Population Growth",
+            "r": -0.063,
+            "n_countries": 41
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.063,
+            "n_countries": 42
+          }
+        ]
+      },
+      "2023": {
+        "countries_with_happiness_score": 38,
+        "top3": [
+          {
+            "indicator": "Social support",
+            "r": 0.855,
+            "n_countries": 38
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.657,
+            "n_countries": 38
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.603,
+            "n_countries": 38
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": 0.092,
+            "n_countries": 38
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.257,
+            "n_countries": 37
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.336,
+            "n_countries": 38
+          }
+        ]
+      }
+    },
+    "Europe": {
+      "2015": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Freedom",
+            "r": 0.825,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.813,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.745,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Forest Area",
+            "r": -0.048,
+            "n_countries": 39
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.115,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": 0.191,
+            "n_countries": 38
+          }
+        ]
+      },
+      "2016": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Freedom",
+            "r": 0.828,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.813,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.776,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Forest Area",
+            "r": -0.03,
+            "n_countries": 39
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.135,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": 0.195,
+            "n_countries": 38
+          }
+        ]
+      },
+      "2017": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Freedom",
+            "r": 0.821,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.816,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.802,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Forest Area",
+            "r": -0.02,
+            "n_countries": 39
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.118,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": 0.185,
+            "n_countries": 38
+          }
+        ]
+      },
+      "2018": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.815,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.801,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.792,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Forest Area",
+            "r": -0.058,
+            "n_countries": 39
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.096,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": 0.197,
+            "n_countries": 38
+          }
+        ]
+      },
+      "2019": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.818,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.818,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.789,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.046,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.104,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Material Footprint",
+            "r": 0.163,
+            "n_countries": 38
+          }
+        ]
+      },
+      "2020": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.824,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.819,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.769,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.007,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.145,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.26,
+            "n_countries": 40
+          }
+        ]
+      },
+      "2021": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.828,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.814,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.737,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": -0.032,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Forest Area",
+            "r": -0.182,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.375,
+            "n_countries": 40
+          }
+        ]
+      },
+      "2022": {
+        "countries_with_happiness_score": 40,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.822,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.79,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.711,
+            "n_countries": 40
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": -0.08,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.266,
+            "n_countries": 40
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.428,
+            "n_countries": 40
+          }
+        ]
+      },
+      "2023": {
+        "countries_with_happiness_score": 39,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.815,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.802,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.701,
+            "n_countries": 39
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": 0.178,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.602,
+            "n_countries": 39
+          },
+          {
+            "indicator": "Freedom",
+            "r": 0.634,
+            "n_countries": 39
+          }
+        ]
+      }
+    },
+    "World": {
+      "2015": {
+        "countries_with_happiness_score": 156,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.786,
+            "n_countries": 156
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.74,
+            "n_countries": 156
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.726,
+            "n_countries": 156
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.074,
+            "n_countries": 146
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.117,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Forest Area",
+            "r": 0.16,
+            "n_countries": 153
+          }
+        ]
+      },
+      "2016": {
+        "countries_with_happiness_score": 155,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.795,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.768,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.739,
+            "n_countries": 155
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.075,
+            "n_countries": 146
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.118,
+            "n_countries": 153
+          },
+          {
+            "indicator": "Forest Area",
+            "r": 0.159,
+            "n_countries": 152
+          }
+        ]
+      },
+      "2017": {
+        "countries_with_happiness_score": 154,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.813,
+            "n_countries": 154
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.783,
+            "n_countries": 154
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.753,
+            "n_countries": 154
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.076,
+            "n_countries": 147
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.114,
+            "n_countries": 153
+          },
+          {
+            "indicator": "Forest Area",
+            "r": 0.15,
+            "n_countries": 151
+          }
+        ]
+      },
+      "2018": {
+        "countries_with_happiness_score": 155,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.802,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.777,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.746,
+            "n_countries": 155
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.063,
+            "n_countries": 148
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.096,
+            "n_countries": 154
+          },
+          {
+            "indicator": "Forest Area",
+            "r": 0.124,
+            "n_countries": 152
+          }
+        ]
+      },
+      "2019": {
+        "countries_with_happiness_score": 155,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.795,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.782,
+            "n_countries": 155
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.777,
+            "n_countries": 155
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Material Footprint",
+            "r": 0.045,
+            "n_countries": 146
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.076,
+            "n_countries": 155
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.077,
+            "n_countries": 154
+          }
+        ]
+      },
+      "2020": {
+        "countries_with_happiness_score": 152,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.777,
+            "n_countries": 152
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.774,
+            "n_countries": 152
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.765,
+            "n_countries": 152
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.051,
+            "n_countries": 151
+          },
+          {
+            "indicator": "Generosity",
+            "r": 0.069,
+            "n_countries": 152
+          },
+          {
+            "indicator": "Forest Area",
+            "r": 0.093,
+            "n_countries": 149
+          }
+        ]
+      },
+      "2021": {
+        "countries_with_happiness_score": 148,
+        "top3": [
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.792,
+            "n_countries": 148
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.773,
+            "n_countries": 148
+          },
+          {
+            "indicator": "Social support",
+            "r": 0.757,
+            "n_countries": 148
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": -0.018,
+            "n_countries": 148
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.055,
+            "n_countries": 147
+          },
+          {
+            "indicator": "Forest Area",
+            "r": 0.095,
+            "n_countries": 145
+          }
+        ]
+      },
+      "2022": {
+        "countries_with_happiness_score": 145,
+        "top3": [
+          {
+            "indicator": "Social support",
+            "r": 0.778,
+            "n_countries": 145
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.767,
+            "n_countries": 145
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.746,
+            "n_countries": 145
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": 0.064,
+            "n_countries": 145
+          },
+          {
+            "indicator": "CO2 Emissions (Consumption)",
+            "r": 0.066,
+            "n_countries": 144
+          },
+          {
+            "indicator": "Inflation",
+            "r": -0.266,
+            "n_countries": 140
+          }
+        ]
+      },
+      "2023": {
+        "countries_with_happiness_score": 137,
+        "top3": [
+          {
+            "indicator": "Social support",
+            "r": 0.835,
+            "n_countries": 137
+          },
+          {
+            "indicator": "Economy (GDP per Capita)",
+            "r": 0.784,
+            "n_countries": 137
+          },
+          {
+            "indicator": "Health (Life Expectancy)",
+            "r": 0.747,
+            "n_countries": 136
+          }
+        ],
+        "bottom3": [
+          {
+            "indicator": "Generosity",
+            "r": 0.044,
+            "n_countries": 137
+          },
+          {
+            "indicator": "Trust (Government Corruption)",
+            "r": 0.472,
+            "n_countries": 137
+          },
+          {
+            "indicator": "Political System",
+            "r": 0.58,
+            "n_countries": 136
+          }
+        ]
+      }
+    }
+  },
+  "pca_kmeans": {
+    "year": 2019,
+    "features": [
+      "CO2 Emissions (Consumption)",
+      "Economy (GDP per Capita)",
+      "Forest Area",
+      "Freedom",
+      "Generosity",
+      "Happiness Score",
+      "Health (Life Expectancy)",
+      "Inflation",
+      "Material Footprint",
+      "Personal Integrity and Security",
+      "Political System",
+      "Social support",
+      "Sustainable Development Index",
+      "Trust (Government Corruption)",
+      "Urban Population Growth"
+    ],
+    "explained_variance_ratio": [
+      0.469,
+      0.131
+    ],
+    "clusters": {
+      "1": {
+        "countries": 32,
+        "mean_happiness_score": 6.862
+      },
+      "2": {
+        "countries": 57,
+        "mean_happiness_score": 5.518
+      },
+      "3": {
+        "countries": 66,
+        "mean_happiness_score": 4.601
+      }
+    }
+  }
+}

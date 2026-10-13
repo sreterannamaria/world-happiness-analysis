@@ -1,0 +1,6 @@
+# Original 2024 notebooks in code/ (need a MariaDB server, see README)
+-r requirements.txt
+mariadb>=1.1
+seaborn
+plotly
+jupyter
