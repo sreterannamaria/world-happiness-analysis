@@ -1,0 +1,2 @@
+# Notebooks document the original 2024 workflow; the reproducible code is in pipeline/
+*.ipynb linguist-documentation
