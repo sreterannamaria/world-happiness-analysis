@@ -7,7 +7,8 @@
 
 A business intelligence case study. We combined the **World Happiness Report (2015–2023)** with ten additional country indicators in a relational database, then used **correlation analysis, PCA and K-Means clustering** to find which factors are most closely linked to life satisfaction, globally and by continent.
 
-**[📄 Case study (PDF, German)](docs/case-study.pdf)** · **[📊 Presentation slides (PDF, German)](docs/presentation.pdf)**
+- [Case study (PDF, German)](docs/case-study.pdf)
+- [Presentation slides (PDF, German)](docs/presentation.pdf)
 
 ---
 
@@ -38,7 +39,7 @@ Material footprint, forest area and inflation showed almost no relationship with
 ## Approach
 
 ```
-CSV / XLSX sources ──► Jupyter ETL notebooks ──► MariaDB (normalised schema) ──► SQL + pandas ──► correlation · PCA · K-Means ──► charts
+CSV / XLSX sources ──► Jupyter ETL notebooks ──► MariaDB (normalised schema) ──► SQL + pandas ──► correlation, PCA, K-Means ──► charts
 ```
 
 1. **Data collection:** World Happiness Report (one file per year) and ten additional country indicators (e.g. CO₂ consumption, homicide rate, inflation, political system).
